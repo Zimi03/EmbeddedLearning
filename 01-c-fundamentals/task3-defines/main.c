@@ -1,8 +1,9 @@
+#include <stdio.h>
+#include <stdint.h>
+
 #define PIN3 (1UL << 3)
 #define PIN5 (1UL << 5)
 
-#include <stdio.h>
-#include <stdint.h>
 
 int main (){
 

@@ -14,7 +14,7 @@ int main(){
 
     RCC_APB2ENR |= BIT4;
 
-
+    GPIO_CRH &= ~(0xFUL << 20);
     GPIO_CRH |= BIT20;
     
 
